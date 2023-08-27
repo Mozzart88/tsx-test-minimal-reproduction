@@ -1,0 +1,23 @@
+{
+	"name": "tsx-test-minimal-reproduction",
+	"description": "test dinamic import",
+	"main": "src/app.ts",
+	"author": "timokhovim@gmail.com",
+	"license": "ISC",
+	"private": false,
+	"directories": {
+		"test": "test"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.11",
+		"tsx": "^3.12.7",
+		"typescript": "^5.1.6"
+	},
+	"scripts": {
+		"start": "tsx --test",
+		"start:1": "tsx --test test",
+		"start:2": "tsx --test test/**/*.ts"
+	},
+	"type": "module",
+	"version": "0.0.1"
+}
